@@ -21,12 +21,10 @@ public class Transforms2D extends JPanel {
 			case 1:
 				g2.scale(0.5, 0.5);;
 				break;
-				
 			case 2:
-				
 				g2.rotate(0.5);
 			case 3:
-				g2.scale(0.5, 0.8);;
+				g2.scale(0.5, 0.7);;
 				
 			g2.rotate(Math.toRadians(180));
 				break;
@@ -35,7 +33,7 @@ public class Transforms2D extends JPanel {
 				break;
 			case 5:
 				g2.scale(1, 0.3);
-				g2.translate(0,-900);
+				g2.translate(0,-850);
 				break;
 			case 6:
 				g2.shear(0,-0.5);
@@ -47,10 +45,10 @@ public class Transforms2D extends JPanel {
 			case 8:
 				g2.rotate(Math.toRadians(30));
 				g2.scale(1, 0.3);
-				g2.translate(0, 200);
+				g2.translate(0, 180);
 				break;
 			case 9:
-				g2.translate(100, 0);
+				g2.translate(90, 0);
 				g2.shear(0, 0.25);
 				g2.rotate(Math.PI);
 				break;
